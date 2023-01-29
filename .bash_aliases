@@ -1,2 +1,2 @@
 alias vim="nvim"
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
