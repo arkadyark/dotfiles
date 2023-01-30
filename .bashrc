@@ -19,3 +19,5 @@ unset __conda_setup
 
 # Path stuff
 export PATH=$PATH:/usr/local/cuda/bin
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
