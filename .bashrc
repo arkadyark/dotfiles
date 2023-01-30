@@ -2,6 +2,10 @@
 # Alias definitions.
 . ~/.bash_aliases
 
+# Useful installs
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+. $HOME/.z.sh
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/ark/.miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -20,4 +24,3 @@ unset __conda_setup
 # Path stuff
 export PATH=$PATH:/usr/local/cuda/bin
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
