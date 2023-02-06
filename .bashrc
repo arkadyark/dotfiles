@@ -22,5 +22,5 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # Path stuff
-export PATH=$PATH:/usr/local/cuda/bin
+export PATH=$PATH:/home/ark/.bin
 

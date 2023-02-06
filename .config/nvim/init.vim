@@ -16,6 +16,8 @@ colo seoul256
 let mapleader = ","
 
 "  Key remappings
+nnoremap 0 ^
+nnoremap ^ 0
 nnoremap <leader>w :w<CR>
 nnoremap <leader>nt :NERDTreeToggle<CR>
 nnoremap <leader>nf :NERDTreeFind<CR>
