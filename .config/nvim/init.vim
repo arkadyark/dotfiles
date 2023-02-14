@@ -1,16 +1,22 @@
 " Plugin setup
 call plug#begin()
-Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/seoul256.vim'
 Plug 'mileszs/ack.vim'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " Plugin configs
 "  ack.vim -> ag
-let g:ackprg = 'ag --vimgrep --smart-case'                                                   
+let g:ackprg = 'ag --vimgrep --smart-case' 
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
 " Use seoul256 color scheme
 colo seoul256
+
+" General stuff
+set scrolloff=7
 
 " Quality of life navigation things
 let mapleader = ","
