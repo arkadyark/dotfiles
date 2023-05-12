@@ -12,9 +12,9 @@ null_ls.setup({
 	debug = false,
 	sources = {
     -- Python
+    diagnostics.ruff,
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.isort,
-    diagnostics.pylint,
     -- Javascript
 		formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
     -- Lua
