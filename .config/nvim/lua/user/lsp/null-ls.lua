@@ -19,5 +19,8 @@ null_ls.setup({
 		formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
     -- Lua
 		formatting.stylua,
+    -- C/C++
+    diagnostics.clang_check,
+    formatting.clang_format
 	},
 })
