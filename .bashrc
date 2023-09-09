@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+# ~/.bashrc: executed by bash(1) for non-login shellsc
 # Alias definitions.
 . ~/.bash_aliases
 
@@ -28,3 +28,7 @@ export PATH=$PATH:/home/ark/.bin
 export CUDA_HOME=/usr/local/cuda
 export PATH=${CUDA_HOME}/bin:${PATH}
 export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:$LD_LIBRARY_PATH
+
+# Mojo setup
+export MODULAR_HOME="/home/ark/.modular"
+export PATH="/home/ark/.modular/pkg/packages.modular.com_mojo/bin:$PATH"
